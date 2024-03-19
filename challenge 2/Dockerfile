@@ -1,6 +1,6 @@
-FROM centos:latest
+FROM fedora:latest
 
-RUN yum -y install httpd
+RUN dnf -y install httpd
 
 ADD webserver.tar.gz /var/www/html/
 

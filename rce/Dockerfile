@@ -1,7 +1,7 @@
 FROM alpine
 
-RUN apk add python
+RUN apk add python3
 
-CMD ["8.8.8.8"]
+CMD ["google.com"]
 
-ENTRYPOINT [ "ping", "-t", "5" ] 
+ENTRYPOINT [ "ping", "-c", "5" ] 
